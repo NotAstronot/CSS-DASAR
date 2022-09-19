@@ -1,0 +1,43 @@
+.hallo{
+	color: green;
+
+}
+
+.hallo:hover {
+	color: hotpink;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.hallo:active {
+	font-style: italic;
+}
+
+.hallo:visited {
+	color: red;
+}
+
+
+
+
+
+
+li:first-child a {
+	color: blueviolet;
+}
+
+li:last-child a {
+	color: red ;
+}
+
+li:nth-child(2n) a {
+	color:green ;
+}
+
+p:first-of-type {
+	color: hotpink;
+}
+
+p:last-of-type {
+	color: blueviolet;
+}

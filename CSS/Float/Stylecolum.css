@@ -1,0 +1,31 @@
+.container {
+	width: 800px;
+	border: 2px solid black;
+	margin: auto;
+	padding: 5px;
+	overflow: auto;
+
+}
+
+.Kiri {
+	width: 150px;
+	height: 500px;
+	background-color: blue;
+	float: left;
+}
+
+.Tengah {
+	width: 500px;
+	height: 500px;
+	background-color: hotpink;
+	float: left;
+}
+
+.Kanan {
+	width: 150px;
+	height: 500px;
+	background-color: lightblue;
+	float: left;
+}
+
+

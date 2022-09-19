@@ -1,0 +1,151 @@
+
+
+body { 
+	font: 160px 28px arial, sans-serif; 
+	background-color: lightblue;
+	background-image: url(../Pictures/download.jpg);
+	}
+
+.top-bar {
+	position: fix;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: hotpink ;
+	border-bottom: 3px solid salmon;
+	z-index: -9999;
+}
+
+
+.Container {
+	width: 950px;
+	margin: 80px auto;
+	background-color: #5fc9c9;
+	position: relative;
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pictures/twitter1.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: -9px;
+	right: -17px;
+}
+
+.Header {
+	padding: 20px;
+}
+.Header .Judul {
+	font-size: 40px;
+	font-weight: bold;
+	
+
+}
+
+.Header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.Header a { 
+	text-decoration: none; 
+	color: black;
+	padding: 10px;
+	}
+
+.Header a:hover {
+	background-color: hotpink;
+}
+
+.Hero {
+	height: 350px;
+	background-image: url(../Pictures/Duduk2.jpg);
+	background-size: cover;
+	background-position: 0 -250;
+	border-top: 5px solid #c2be7c;
+	border-bottom: 5px solid #c2be7c;
+
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-shadow: border-box;
+	float: left;
+}
+
+.main .h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .Penulis {
+	font-size: 15px;
+	margin-top: -10px;
+}
+
+.main .Penulis a {
+	color: #ba389e;
+	text-decoration: none;
+}
+
+.main p {
+	margin-bottom: 25px;
+	font-size: 17px;
+	
+}
+
+.sidebar {
+	width: 250px;
+	padding: 20px;
+	float: right;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	color: black;
+}
+
+.sidebar img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font: 12px/18px arial;
+}
+
+.Fotter {
+	background-color: black;
+	padding: 3px;
+}
+.Fotter .copy {
+	color: lightblue;
+	text-align: center;
+	font-size: 10px;
+}
+
+/*clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}

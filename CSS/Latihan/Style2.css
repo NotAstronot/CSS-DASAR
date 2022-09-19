@@ -1,0 +1,16 @@
+h1 {
+	font-family: sans-serif,verdana, arial; 
+	font-size: 100px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-style: italic;
+}
+p {
+	font-family: sans-serif;
+	text-align: center;
+	text-indent: 10px;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}

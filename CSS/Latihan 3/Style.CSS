@@ -1,0 +1,32 @@
+body {
+	font-family: arial;
+
+}
+
+h1,h2{
+	color: hotpink;}
+
+
+ul li a {
+	color: yellowgreen;
+}
+
+ol li a {
+	color: orangered;
+}
+
+#p1 {
+	text-align: justify;
+	color: blueviolet;
+
+}
+
+.p2 {
+	text-align: justify;
+	color: orangered;
+	
+}
+
+.cetak-tebal {
+	font-weight: bold ;
+}
